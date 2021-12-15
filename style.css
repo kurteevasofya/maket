@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*section-one*/
+
+.section-one{
+    background-image: url(image/section_one.jpg);
+    position: relative;
+    height: 100vh;
+}
+
+.section-one_list{
+    text-align: center;
+}
+
+.section-one h2{
+   padding-top: 50px;
+   color:white;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+}
+
+.section-one p{
+    padding-top: 50px;
+    color:yellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.section-one .btn {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-color: yellow; 
+    color: white;
+    width: 200px;
+    height: 50px;       
+}
+
+.section-one i{
+    padding-top: 150px;
+    font-size: 60px;
+}
+
+.section-one .pp{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+/*section-two*/
+
+.section-two{
+    background-color: white;
+    position: relative;
+    height: 100vh;
+}
+
+
+.section-two article {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-two h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-two p{
+    color:yellow;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 30px;
+}
+
+.section-two__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.section-two .card__discription{
+    color: black
+}
+
+.section-two h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.section-two h3 span{
+    color: yellow;
+    font-size: 25px;
+    border: 2px solid yellow;
+}
+
+.navbar__logo {
+    color: yellow;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar__logo span{
+    color: black;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+ .navbar__item {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar__item_active {
+    background-color: Transparent;
+    border: 1px solid yellow;
+   
+}
+
+ .navbar__item:hover {
+    background-color: yellow;
+}
+
+ i{
+    font-size: 35px;
+}
+
+
+/*section_free*/
+
+.section-free{
+    background-image: url(image/section_free.jpg);
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-free:hover h2{
+    display: block;
+}
+
+.section-free:hover p{
+    display: block;
+}
+
+.section-free h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+    color: yellow;
+}
+
+.section-free p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+    color: yellow;
+}
+
+/*section-four*/
+
+.section-four{
+    background-color: white;
+    position: relative;
+    height: 100vh;
+}
+
+.section-four header {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-four h2{
+    padding-bottom: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section-four p{
+    color: yellow;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section-four article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 100px;
+}
+
+.section-four article img{
+    padding-bottom: 50px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+ 
+.image h2 {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    display: none;
+    text-align: center;
+}
+.image h2 span {
+    color: yellow;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 30px;
+    display: none;
+    text-align: center;
+}
+
+.image:hover h2{
+    display: block;
+}
+.image:hover h2 span{
+    display: block;
+}
+
+/*section-five*/
+
+.section-five{
+    background-color: yellow;
+    position: relative;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-five h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
